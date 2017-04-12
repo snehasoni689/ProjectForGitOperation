@@ -48,3 +48,4 @@ public class BaseEntity implements Serializable {
     }
 
 }
+did some changes in qual branch
