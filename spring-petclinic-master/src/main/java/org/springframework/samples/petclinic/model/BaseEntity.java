@@ -20,7 +20,13 @@ import java.io.Serializable;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.MappedSuperclass;
+import javax.persistence.MappedSuperclass1;
+import javax.persistence.MappedSuperclass2;
+import javax.persistence.MappedSuperclass3;
+import javax.persistence.MappedSuperclass4;
+import javax.persistence.MappedSuperclass5;
+import javax.persistence.MappedSuperclass6;
+
 
 /**
  * Simple JavaBean domain object with an id property. Used as a base class for objects
