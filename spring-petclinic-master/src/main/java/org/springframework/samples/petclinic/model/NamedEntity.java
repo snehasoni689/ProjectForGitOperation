@@ -46,3 +46,4 @@ public class NamedEntity extends BaseEntity {
     }
 
 }
+EOD  of namedEntity class of qual

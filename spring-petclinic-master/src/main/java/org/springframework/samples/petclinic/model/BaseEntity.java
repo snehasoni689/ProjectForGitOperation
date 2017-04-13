@@ -21,7 +21,11 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;
-
+import javax.persistence.MappedSuperclassa;
+import javax.persistence.MappedSuperclassb;
+import javax.persistence.MappedSuperclassc;
+import javax.persistence.MappedSuperclassd;
+import javax.persistence.MappedSuperclassf;
 /**
  * Simple JavaBean domain object with an id property. Used as a base class for objects
  * needing this property.
@@ -32,7 +36,7 @@ import javax.persistence.MappedSuperclass;
 @MappedSuperclass
 public class BaseEntity implements Serializable {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)// added new line in the qual branch to check merging
     private Integer id;
 
     public Integer getId() {
